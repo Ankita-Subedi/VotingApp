@@ -1,0 +1,23 @@
+{
+  "name": "votingapp",
+  "version": "1.0.0",
+  "description": "This is an online voting app where user can see list of candidates and vote only one candidate. User should login with their unique gov id and password. They can also view live which candidate is getting more votes who is getting less.",
+  "main": "server.js",
+  "scripts": {
+    "test": "(empty)"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.3",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.1",
+    "jsonwebtoken": "^9.0.2",
+    "lodash": "^4.17.21",
+    "mongoose": "^8.8.4",
+    "nodemon": "^3.1.7",
+    "passport": "^0.7.0",
+    "passport-local": "^1.0.0"
+  }
+}
