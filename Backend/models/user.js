@@ -64,6 +64,7 @@ userSchema.methods.comparePassword = async function (candidatePassword) {
     try {
         //use bcrypt to compare provided password with hashed password
         const isMatch = await bcrypt.compare(candidatePassword, this.password)  //.compare is bcrypt's method to compare
+        return isMatch;
     } catch (err) {
         throw err;
     }

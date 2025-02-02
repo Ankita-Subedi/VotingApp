@@ -9,12 +9,16 @@ import {
 } from "react-router-dom";
 import Welcome from "./pages/Welcome.jsx";
 import Login from "./pages/Login.jsx";
+import Home from "./pages/Home.jsx";
+import Signup from "./pages/Signup.jsx";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
     <>
       <Route path="/" element={<Welcome />} />
       <Route path="login" element={<Login />} />
+      <Route path="/signup" element={<Signup />} />
+      <Route path="/home" element={<Home />} />
     </>
   )
 );

@@ -11,7 +11,7 @@ const Welcome = () => {
 
       <ButtonS label="Login" path="login"/>
       </div>
-      <p className="text-sm mt-1">New User? <span><Link className="border-b text-blue-600">Sign Up</Link></span></p>
+      <p className="text-sm mt-1">New User? <span><Link className="border-b text-blue-600" to="/signup">Sign Up</Link></span></p>
       </div>
     </div>
   )

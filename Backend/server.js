@@ -4,7 +4,9 @@ require('dotenv').config();
 const db = require('./db')
 const cors = require('cors')
 
-app.use(cors());
+app.use(cors({
+    origin: '*',
+}));
 
 const bodyParser = require('body-parser');
 app.use(bodyParser.json()); //req.body
